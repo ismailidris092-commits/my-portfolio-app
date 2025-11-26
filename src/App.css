@@ -1,8 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #080808;
+
   font-family: IBM Plex Mono, serif;
+}
+
+.nav-body {
+  background-color: #080808;
 }
 
 .nav-btn {
@@ -32,6 +36,10 @@ body {
 
 .thumbnail {
   padding: 0px 10px;
+}
+
+.profile-container-body {
+  background-color: #080808;
 }
 
 .profile-container {

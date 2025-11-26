@@ -9,7 +9,7 @@ import vector from "../images/vector.png";
 
 function Profile() {
   return (
-    <>
+    <div className="profile-container-body">
       <section className="profile-container">
         <div className="profile">
           <h1>Ismail Idris</h1>
@@ -39,7 +39,7 @@ function Profile() {
           <img className="work-with-icon" src={stripe} alt="Stripe" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
