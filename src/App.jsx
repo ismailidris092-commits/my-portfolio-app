@@ -1,9 +1,17 @@
+import React from "react";
 import "./App.css";
+import Home from "./components/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <>
-      <h1>My Portfolio</h1>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
