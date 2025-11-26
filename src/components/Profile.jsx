@@ -5,19 +5,21 @@ import paychex from "../images/paychex.png";
 import elastic from "../images/elastic.png";
 import stripe from "../images/stripe.png";
 import profileImg from "../images/profileImg.png";
+import vector from "../images/vector.png";
 
 function Profile() {
   return (
     <>
       <section className="profile-container">
         <div className="profile">
-          <h1>Your Name Here</h1>
+          <h1>Ismail Idris</h1>
           <p className="profile-para">
             Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <button className="profile-start-btn">
-            Let’s get started 
+            Let’s get started
+            <img className="vector-icon" src={vector} alt="VectorImg" />
           </button>
         </div>
 

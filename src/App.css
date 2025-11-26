@@ -35,14 +35,14 @@ body {
 }
 
 .profile-container {
-  padding: 70px 170px;
+  padding: 20px 170px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #fff;
 }
 
 .profile {
-  margin: 30px 30px 0 0;
+  margin: 80px 30px 0 0;
 }
 
 .profile h1 {
@@ -60,6 +60,7 @@ body {
 .profile-img img {
   margin-left: 50px;
   border-radius: 50%;
+  height: 450px;
 }
 
 .profile-start-btn {
@@ -72,6 +73,14 @@ body {
   padding: 21px 64px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.profile-start-btn:hover {
+  background: #27ae60;
+}
+
+.vector-icon {
+  margin-left: 10px;
 }
 
 .work-with-text {
