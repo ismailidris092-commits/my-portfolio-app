@@ -72,11 +72,12 @@ body {
   border: 1px;
   padding: 21px 64px;
   margin-top: 20px;
-  cursor: pointer;
+  border-radius: 8px;
 }
 
 .profile-start-btn:hover {
   background: #27ae60;
+  transform: scale(1.05);
 }
 
 .vector-icon {
