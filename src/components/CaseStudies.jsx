@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import vector from "../images/vector.png";
-import fintechImg from "../images/fintechImg.png";
-import edtechImg from "../images/edtechImg.png";
-import pharmaImg from "../images/pharmaImg.png";
+import fintechImg from "../images/fintechImg.png"
+import edTechImg from "../images/edTechImg.png"
+import pharmaImg from "../images/pharmaImg.png"
 
 function CaseStudies() {
   return (
@@ -38,7 +38,7 @@ function CaseStudies() {
       </section>
 
       <section className="edTech-container">
-        <img src={edtechImg} alt="EdtechImg" />
+        <img src={edTechImg} alt="EdTechImg" />
         <div className="edtech-section">
           <button className="edtech-btn">Edtech</button>
           <h2 className="work-name">Work name here</h2>
