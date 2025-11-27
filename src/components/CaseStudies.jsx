@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import vector from "../images/vector.png";
 import fintechImg from "../images/fintechImg.png";
-import edtechImg from "../images/EdtechImg.png";
-import pharmaImg from "../images/PharmaImg.png";
+import edtechImg from "../images/edtechImg.png";
+import pharmaImg from "../images/pharmaImg.png";
 
 function CaseStudies() {
   return (
@@ -47,10 +47,7 @@ function CaseStudies() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
             eiusmod tempor incididunt ut labore et dolore magna.
           </p>
-          <button className="case-study-btn-two">
-            View case study
-            {/* <img className="vector-icon" src={vector} alt="VectorImg" /> */}
-          </button>
+          <button className="case-study-btn-two">View case study</button>
         </div>
       </section>
 
