@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: IBM Plex Mono, serif;
 }
 
@@ -12,7 +11,7 @@ body {
 .nav-btn {
   border: 1px;
   background-color: #1b1b1b;
-  margin: 0 30px;
+  margin: 0 70px;
   height: 70px;
   width: 1110px;
 }
@@ -20,7 +19,7 @@ body {
 .nav-container {
   display: flex;
   padding: 10px 100px;
-  gap: 40px;
+  gap: 50px;
 }
 
 .nav-link a {
@@ -43,9 +42,9 @@ body {
 }
 
 .profile-container {
-  padding: 20px 170px;
+  padding: 20px 200px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   color: #fff;
 }
 
@@ -95,14 +94,138 @@ body {
 .work-with-text {
   color: #fff;
   font-size: 14px;
-  margin-left: 170px;
+  margin-left: 200px;
 }
 
 .work-with-icon-container {
-  margin-left: 100px;
+  margin-left: 140px;
 }
 
 .work-with-icon {
-  margin-left: 100px;
+  margin-left: 90px;
   padding-top: 20px;
+}
+
+/* ...........CASE STUDIES.......... */
+.link-to {
+  margin-left: 160px;
+}
+.case-studies-container {
+  text-align: center;
+}
+
+.case-studies-container h1 {
+  font-size: 34px;
+  font-weight: 700px;
+}
+
+.case-studies-para {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #9c9c9c;
+  margin: 0 370px 50px 370px;
+}
+
+.fintech-container {
+  display: flex;
+  margin: 0 160px;
+}
+
+.fintech-section {
+  padding-right: 20px;
+}
+
+.fintech-btn {
+  font-family: IBM Plex Mono, serif;
+  font-size: 12px;
+  font-weight: 700px;
+  color: #ffa217;
+  background-color: #fff6e9;
+  border-radius: 10px;
+  border: none;
+}
+
+.work-name {
+  font-family: raleway, serif;
+  font-size: 24px;
+  font-weight: 800px;
+  color: #080808;
+}
+
+.work-name-para {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.case-study-btn-one {
+  background-color: rgb(255, 160, 26);
+  color: #fff6e9;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.edTech-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 70px 160px;
+}
+
+.edTech-container img {
+  width: 500px;
+
+}
+
+.edtech-section {
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.edtech-btn {
+  font-family: IBM Plex Mono, serif;
+  font-size: 12px;
+  font-weight: 700px;
+  color: #000aff;
+  background-color: #d0e6ff;
+  border-radius: 10px;
+  border: none;
+}
+
+.case-study-btn-two {
+  background-color: #000aff;
+  color: #fff6e9;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.pharma-container {
+  display: flex;
+  margin: 50px 160px;
+}
+
+.pharma-btn {
+  font-family: IBM Plex Mono, serif;
+  font-size: 12px;
+  font-weight: 700px;
+  color: #2AB090;
+  background-color: #E0FFF8;
+  border-radius: 10px;
+  border: none;
+}
+
+.pharma-section {
+  padding-right: 40px;
+  margin-top: 40px;
+}
+
+.case-study-btn-three {
+  background-color: #2AB090;
+  color: #fff6e9;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
 }
