@@ -174,7 +174,6 @@ body {
 
 .edTech-container img {
   width: 500px;
-
 }
 
 .edtech-section {
@@ -210,8 +209,8 @@ body {
   font-family: IBM Plex Mono, serif;
   font-size: 12px;
   font-weight: 700px;
-  color: #2AB090;
-  background-color: #E0FFF8;
+  color: #2ab090;
+  background-color: #e0fff8;
   border-radius: 10px;
   border: none;
 }
@@ -222,10 +221,165 @@ body {
 }
 
 .case-study-btn-three {
-  background-color: #2AB090;
+  background-color: #2ab090;
   color: #fff6e9;
   padding: 12px 20px;
   margin-top: 20px;
   border-radius: 5px;
   border: none;
+}
+
+/* ...............Testimonials............. */
+.home-link {
+  text-align: left;
+  margin-left: 160px;
+}
+
+.testimonials-container {
+  text-align: center;
+  background-color: #080808;
+}
+
+.testimonials-container h1 {
+  font-family: raleway, serif;
+  font-size: 34px;
+  font-weight: 800px;
+  color: #fff;
+}
+
+.testimonials-para {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 0 350px;
+  color: #9c9c9c;
+}
+
+.client-section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+  background-color: #080808;
+}
+
+.client1-container {
+  background-image: url(images/Rectangle.png);
+  margin: 0 100px;
+}
+
+/* .quote-mark {
+  color: #e0fff8;
+  font-size: 80px;
+} */
+
+.client1-para {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 20px;
+  color: #9c9c9c;
+}
+
+.client1-Img-section {
+  display: flex;
+  margin: 0 20px;
+}
+
+.client1-Img-section h2 {
+  font-size: 18px;
+  font-weight: 700px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.client1-Img-section img {
+  border-radius: 50%;
+}
+
+.client2-container {
+  background-image: url(images/Rectangle.png);
+  margin: 0 100px;
+}
+
+.client2-para {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 20px;
+  color: #9c9c9c;
+}
+
+.client2-Img-section {
+  display: flex;
+  margin: 0 20px;
+}
+
+.client2-Img-section h2 {
+  font-size: 18px;
+  font-weight: 700px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.client2-Img-section img {
+  border-radius: 50%;
+}
+.client-section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 60px 60px 60px;
+  background-color: #080808;
+}
+
+.client3-container {
+  background-image: url(images/Rectangle.png);
+  margin: 0 100px;
+}
+
+.client3-para {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 20px;
+  color: #9c9c9c;
+}
+
+.client3-Img-section {
+  display: flex;
+  margin: 0 20px;
+}
+
+.client3-Img-section h2 {
+  font-size: 18px;
+  font-weight: 700px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.client3-Img-section img {
+  border-radius: 50%;
+}
+
+.client4-container {
+  background-image: url(images/Rectangle.png);
+  margin: 0 100px;
+}
+
+.client4-para {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 20px;
+  color: #9c9c9c;
+}
+
+.client4-Img-section {
+  display: flex;
+  margin: 0 20px;
+}
+
+.client4-Img-section h2 {
+  font-size: 18px;
+  font-weight: 700px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.client4-Img-section img {
+  border-radius: 50%;
 }
