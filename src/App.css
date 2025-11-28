@@ -33,7 +33,7 @@ body {
   color: #9c9c9c;
 }
 
-.thumbnail {
+.logo {
   padding: 0px 10px;
 }
 
@@ -97,11 +97,11 @@ body {
   margin-left: 200px;
 }
 
-.work-with-icon-container {
+.work-with-logo-container {
   margin-left: 140px;
 }
 
-.work-with-icon {
+.work-with-logo {
   margin-left: 90px;
   padding-top: 20px;
 }
@@ -228,7 +228,6 @@ body {
 }
 
 /* ...............Testimonials............. */
-
 .testimonials-container {
   text-align: center;
   background-color: #080808;

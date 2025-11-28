@@ -32,12 +32,12 @@ function Profile() {
       <div className="work-with-section">
         <p className="work-with-text">Worked with</p>
 
-        <div className="work-with-icon-container">
-          <img className="work-with-icon" src={clickup} alt="ClickUp" />
-          <img className="work-with-icon" src={dropbox} alt="Dropbox" />
-          <img className="work-with-icon" src={paychex} alt="Paychex" />
-          <img className="work-with-icon" src={elastic} alt="Elastic" />
-          <img className="work-with-icon" src={stripe} alt="Stripe" />
+        <div className="work-with-logo-container">
+          <img className="work-with-logo" src={clickup} alt="ClickUp" />
+          <img className="work-with-logo" src={dropbox} alt="Dropbox" />
+          <img className="work-with-logo" src={paychex} alt="Paychex" />
+          <img className="work-with-logo" src={elastic} alt="Elastic" />
+          <img className="work-with-logo" src={stripe} alt="Stripe" />
         </div>
       </div>
     </div>

@@ -17,10 +17,10 @@ function NavBar() {
             <Link to="/Get In Touch">Get In Touch</Link>
           </div>
 
-          <div className="nav-thumbnail-container">
-            <img className="thumbnail" src={linkedIn} alt="linkedIn" />
-            <img className="thumbnail" src={behance} alt="behance" />
-            <img className="thumbnail" src={twitter} alt="twitter" />
+          <div className="nav-logo-container">
+            <img className="logo" src={linkedIn} alt="linkedIn" />
+            <img className="logo" src={behance} alt="behance" />
+            <img className="logo" src={twitter} alt="twitter" />
           </div>
         </nav>
       </button>
