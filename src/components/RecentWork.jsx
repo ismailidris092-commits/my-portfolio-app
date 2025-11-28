@@ -8,22 +8,14 @@ import NavBar from "./NavBar";
 export default function RecentWork() {
   return (
     <>
-      {/* <div className="caseStudies-nav-link">
-        <Link to="/">Home</Link>
-        <Link to="/Case Studies">Case Studies</Link>
-        <Link to="/Testimonials">Testimonials</Link>
-        <Link to="/Recent Work">Recent Work</Link>
-        <Link to="/Get In Touch">Get In Touch</Link>
-      </div> */}
-
       <NavBar />
-
       <div className="recent-work-container">
         <h1>Recent Work</h1>
         <p className="recent-work-para">
-          Solving user & business problems since last 15+ years. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua.
+          Solving user and business problems for over 15 years. Pain itself is
+          something to be avoided; in seeking pleasure we may encounter effort
+          and hardship, but these experiences can also bring meaningful
+          outcomes.
         </p>
       </div>
 
@@ -38,10 +30,13 @@ export default function RecentWork() {
 
       <section className="work-name-container">
         <div className="work-name-section1">
-          <h2 className="work-name">Work name here</h2>
+          <h2 className="work-name">Sunnyside Project</h2>
           <p className="work-name-para">
-            Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut
-            labore et dolore magna.
+            The Sunnyside project is a responsive web application built to
+            demonstrate modern front-end skills, including CSS Grid, Flexbox,
+            and interactive UI components. It showcases design-to-development
+            workflow, attention to typography, color, and layout consistency
+            across devices
           </p>
           <button className="know-more-btn">
             Know more
@@ -50,10 +45,13 @@ export default function RecentWork() {
         </div>
 
         <div className="work-name-section2">
-          <h2 className="work-name">Work name here</h2>
+          <h2 className="work-name">Profit Predictor</h2>
           <p className="work-name-para">
-            Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod
-            tempor incididunt u
+            Profit Predictor is a data-driven web application that calculates
+            projected profits based on user inputs such as costs, pricing, and
+            sales volume. Built with interactive UI components and real-time
+            calculations, it demonstrates dynamic form handling, validation, and
+            predictive logic.
           </p>
           <button className="know-more-btn">
             Know more

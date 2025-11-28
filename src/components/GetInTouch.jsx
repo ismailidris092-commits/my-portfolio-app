@@ -7,18 +7,7 @@ function GetInTouch() {
   return (
     <section className="getInTouch-container">
       <div className="testimonials-container">
-        {/* <button className="nav-btn">
-          <div className="testimonials-link">
-            <Link to="/">Home</Link>
-            <Link to="/Case Studies">Case Studies</Link>
-            <Link to="/Testimonials">Testimonials</Link>
-            <Link to="/Recent Work">Recent Work</Link>
-            <Link to="/Get In Touch">Get In Touch</Link>
-          </div>
-        </button> */}
-
         <NavBar />
-
         <h1>Get In Touch</h1>
         <p className="testimonials-para">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

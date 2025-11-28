@@ -9,22 +9,14 @@ import NavBar from "./NavBar";
 function CaseStudies() {
   return (
     <>
-      {/* <div className="caseStudies-nav-link">
-        <Link to="/">Home</Link>
-        <Link to="/Case Studies">Case Studies</Link>
-        <Link to="/Testimonials">Testimonials</Link>
-        <Link to="/Recent Work">Recent Work</Link>
-        <Link to="/Get In Touch">Get In Touch</Link>
-      </div> */}
-
       <NavBar />
-
       <div className="case-studies-container">
         <h1>Case Studies</h1>
         <p className="case-studies-para">
-          Solving user & business problems since last 15+ years. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua.
+          Solving user and business problems for over 15 years. Pain itself is
+          something to be avoided; in seeking pleasure we may encounter effort
+          and hardship, but these experiences can also bring meaningful
+          outcomes.
         </p>
       </div>
 

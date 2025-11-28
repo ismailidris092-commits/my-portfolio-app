@@ -14,8 +14,9 @@ function Profile() {
         <div className="profile">
           <h1>Ismail Idris</h1>
           <p className="profile-para">
-            Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Intro text: Hi, I’m a passionate web developer who loves creating
+            beautiful, responsive websites and apps. I enjoy solving problems,
+            learning new technologies, and bringing ideas to life on the web.
           </p>
           <button className="profile-start-btn">
             Let’s get started

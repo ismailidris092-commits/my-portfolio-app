@@ -107,20 +107,6 @@ body {
 }
 
 /* ...........CASE STUDIES.......... */
-.caseStudies-nav-link {
-  margin-left: 220px;
-  margin-top: 10px;
-}
-
-.caseStudies-nav-link a {
-  font-family: IBM Plex Mono, serif;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 0px 40px;
-  font-weight: 400;
-  font-style: normal;
-  color: #9c9c9c;
-}
 
 .case-studies-container {
   text-align: center;
@@ -242,19 +228,6 @@ body {
 }
 
 /* ...............Testimonials............. */
-.testimonials-link {
-  padding: 10px;
-  margin-right: 120px;
-}
-.testimonials-link a {
-  font-family: IBM Plex Mono, serif;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 0px 50px;
-  font-weight: 400;
-  font-style: normal;
-  color: #9c9c9c;
-}
 
 .testimonials-container {
   text-align: center;
@@ -442,11 +415,12 @@ body {
 
 .work-name-section1 {
   margin-left: 150px;
+  margin-right: 20px;
 }
 
 .work-name-section2 {
   margin-left: 50px;
-  margin-right: 150px;
+  margin-right: 120px;
 }
 
 .know-more-btn {
