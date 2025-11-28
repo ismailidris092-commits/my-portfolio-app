@@ -10,6 +10,7 @@ body {
 
 .nav-btn {
   border: 1px;
+  border-radius: 10px;
   background-color: #1b1b1b;
   margin: 0 70px;
   height: 70px;
@@ -24,7 +25,6 @@ body {
 
 .nav-link a {
   font-family: IBM Plex Mono, serif;
-  color: #fff;
   text-decoration: none;
   font-size: 14px;
   padding: 0px 30px;
@@ -107,9 +107,21 @@ body {
 }
 
 /* ...........CASE STUDIES.......... */
-.link-to {
-  margin-left: 160px;
+.caseStudies-nav-link {
+  margin-left: 220px;
+  margin-top: 10px;
 }
+
+.caseStudies-nav-link a {
+  font-family: IBM Plex Mono, serif;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0px 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: #9c9c9c;
+}
+
 .case-studies-container {
   text-align: center;
 }
@@ -230,9 +242,18 @@ body {
 }
 
 /* ...............Testimonials............. */
-.home-link {
-  text-align: left;
-  margin-left: 160px;
+.testimonials-link {
+  padding: 10px;
+  margin-right: 120px;
+}
+.testimonials-link a {
+  font-family: IBM Plex Mono, serif;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0px 50px;
+  font-weight: 400;
+  font-style: normal;
+  color: #9c9c9c;
 }
 
 .testimonials-container {
@@ -266,9 +287,9 @@ body {
   margin: 0 100px;
 }
 
-/* .quote-mark {
-  color: #e0fff8;
-  font-size: 80px;
+/* .quote-icon {
+  font-size: 36px;
+  color: #fff;
 } */
 
 .client1-para {
@@ -382,4 +403,105 @@ body {
 
 .client4-Img-section img {
   border-radius: 50%;
+}
+
+/* ...........Recent Work.......... */
+.recent-work-container {
+  text-align: center;
+}
+
+.recent-work-container h1 {
+  font-size: 34px;
+  font-weight: 700px;
+}
+
+.recent-work-para {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #9c9c9c;
+  margin: 0 370px 50px 370px;
+}
+
+.recentworkImg-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.recentworkImg-container img {
+  margin-left: 50px;
+}
+
+.recentWorkImg1 {
+  padding-left: 100px;
+}
+
+.work-name-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-name-section1 {
+  margin-left: 150px;
+}
+
+.work-name-section2 {
+  margin-left: 50px;
+  margin-right: 150px;
+}
+
+.know-more-btn {
+  background-color: #3f8e00;
+  color: #fff6e9;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+/* ..........Get In Touch............ */
+.getInTouch-container {
+  background-color: #080808;
+}
+
+.getInTouch-section {
+  margin-left: 460px;
+  font-size: 12px;
+  color: #757575;
+}
+
+.email-section {
+  padding-top: 20px;
+}
+
+.email-section-btn {
+  font-family: IBM Plex Mono, serif;
+  padding: 8px 150px 8px 10px;
+}
+
+.mobile-section-btn {
+  font-family: IBM Plex Mono, serif;
+  padding: 8px 238px 8px 10px;
+  text-align: left;
+}
+
+.message-section-btn {
+  font-family: IBM Plex Mono, serif;
+  padding: 60px 190px 60px 10px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  background-color: #3f8e00;
+  color: #fff;
+  padding: 15px 144px;
+  margin-bottom: 60px;
+}
+
+.footer-text {
+  text-align: center;
+  background-color: #1b1b1b;
+  color: #9c9c9c;
+  padding: 30px 0;
 }

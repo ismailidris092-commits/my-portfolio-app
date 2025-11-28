@@ -1,16 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import vector from "../images/vector.png";
-import fintechImg from "../images/fintechImg.png"
-import edTechImg from "../images/edTechImg.png"
-import pharmaImg from "../images/pharmaImg.png"
+import fintechImg from "../images/fintechImg.png";
+import edTechImg from "../images/edTechImg.png";
+import pharmaImg from "../images/pharmaImg.png";
+import NavBar from "./NavBar";
 
 function CaseStudies() {
   return (
     <>
-      <Link className="link-to" to="/">
-        Home
-      </Link>
+      {/* <div className="caseStudies-nav-link">
+        <Link to="/">Home</Link>
+        <Link to="/Case Studies">Case Studies</Link>
+        <Link to="/Testimonials">Testimonials</Link>
+        <Link to="/Recent Work">Recent Work</Link>
+        <Link to="/Get In Touch">Get In Touch</Link>
+      </div> */}
+
+      <NavBar />
+
       <div className="case-studies-container">
         <h1>Case Studies</h1>
         <p className="case-studies-para">
