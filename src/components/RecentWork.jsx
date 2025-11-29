@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import recentWorkImg1 from "../images/recentWorkImg1.png";
-import recentWorkImg2 from "../images/recentWorkImg2.png";
+import sunnyside from "../images/sunnyside.jpg";
+import profitPredictor from "../images/profitPredictor.png";
 import vector from "../images/vector.png";
 import NavBar from "./NavBar";
 
@@ -22,10 +22,10 @@ export default function RecentWork() {
       <div className="recentworkImg-container">
         <img
           className="recentWorkImg1"
-          src={recentWorkImg1}
+          src={sunnyside}
           alt=" Recent work Img1"
         />
-        <img src={recentWorkImg2} alt=" Recent work Img2" />
+        <img src={profitPredictor} alt=" Recent work Img2" />
       </div>
 
       <section className="work-name-container">

@@ -439,37 +439,43 @@ body {
   background-color: #080808;
 }
 
-.getInTouch-section {
-  margin-left: 460px;
+.form-container {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
   font-size: 12px;
-  color: #757575;
+  padding-right: 310px;
 }
 
-.email-section {
-  padding-top: 20px;
+.form-input {
+  width: 26%;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 24px;
+  font-size: 12px;
 }
 
-.email-section-btn {
-  font-family: IBM Plex Mono, serif;
-  padding: 8px 150px 8px 10px;
-}
-
-.mobile-section-btn {
-  font-family: IBM Plex Mono, serif;
-  padding: 8px 238px 8px 10px;
-  text-align: left;
-}
-
-.message-section-btn {
-  font-family: IBM Plex Mono, serif;
-  padding: 60px 190px 60px 10px;
+.form-textarea {
+  width: 26%;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  height: 120px;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 .submit-btn {
-  margin-top: 20px;
+  margin-left: 452px;
   background-color: #3f8e00;
   color: #fff;
-  padding: 15px 144px;
+  padding: 15px 148px;
   margin-bottom: 60px;
 }
 
@@ -477,5 +483,6 @@ body {
   text-align: center;
   background-color: #1b1b1b;
   color: #9c9c9c;
-  padding: 30px 0;
+  padding: 20px 0;
+  font-size: 12px;
 }

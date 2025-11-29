@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import vector from "../images/vector.png";
 import NavBar from "./NavBar";
+import TextField from "./ContactForm";
+import ContactForm from "./ContactForm";
 
 function GetInTouch() {
   return (
@@ -16,21 +18,7 @@ function GetInTouch() {
       </div>
 
       <div className="getInTouch-section">
-        <div className="email-section">
-          <p>Email</p>
-          <button className="email-section-btn">Please enter your email</button>
-        </div>
-
-        <div className="mobile-section">
-          <p>Mobile</p>
-          <button className="mobile-section-btn">Enter mobile</button>
-        </div>
-
-        <div className="message-section">
-          <p>Message</p>
-          <button className="message-section-btn">Enter your message</button>
-        </div>
-
+        <ContactForm />
         <button className="submit-btn">
           Submit
           <img className="vector-icon" src={vector} alt="VectorImg" />
