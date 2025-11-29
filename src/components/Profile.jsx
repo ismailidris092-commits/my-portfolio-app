@@ -14,7 +14,7 @@ function Profile() {
         <div className="profile">
           <h1>Ismail Idris</h1>
           <p className="profile-para">
-            Intro text: Hi, I’m a passionate web developer who loves creating
+            A passionate web developer who loves creating
             beautiful, responsive websites and apps. I enjoy solving problems,
             learning new technologies, and bringing ideas to life on the web.
           </p>
