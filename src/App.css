@@ -8,26 +8,25 @@ body {
   background-color: #080808;
 }
 
-.nav-btn {
-  border: 1px;
-  border-radius: 10px;
-  background-color: #1b1b1b;
-  margin: 0 70px;
-  height: 70px;
-  width: 1110px;
-}
-
 .nav-container {
   display: flex;
-  padding: 10px 100px;
-  gap: 50px;
+  justify-content: center;
+  gap: 40px;
+  background-color: #1b1b1b;
+  padding: 30px 0;
+  margin: 0 30px;
+  border-radius: 10px;
+}
+
+.hamburger-icon {
+  display: none;
 }
 
 .nav-link a {
   font-family: IBM Plex Mono, serif;
   text-decoration: none;
   font-size: 14px;
-  padding: 0px 30px;
+  padding: 0px 40px;
   font-weight: 400;
   font-style: normal;
   color: #9c9c9c;
@@ -44,7 +43,7 @@ body {
 .profile-container {
   padding: 20px 200px;
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   color: #fff;
 }
 
@@ -98,137 +97,152 @@ body {
 }
 
 .work-with-logo-container {
-  margin-left: 140px;
-}
-
-.work-with-logo {
-  margin-left: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/* ...........CASE STUDIES.......... */
-
-.case-studies-container {
+  display: block;
   text-align: center;
 }
 
-.case-studies-container h1 {
+.work-with-logo {
+  margin-left: 30px;
+  padding: 20px 0;
+}
+
+/* ...........ABOUT ME.......... */
+
+/* .aboutMe-container {
+  text-align: center;
+} */
+
+.aboutMe-container h1 {
+  text-align: center;
   font-size: 34px;
   font-weight: 700px;
 }
 
-.case-studies-para {
-  font-size: 14px;
-  font-weight: 400px;
-  color: #9c9c9c;
-  margin: 0 370px 50px 370px;
-}
-
-.fintech-container {
-  display: flex;
-  margin: 0 160px;
-}
-
-.fintech-section {
-  padding-right: 20px;
-}
-
-.fintech-btn {
-  font-family: IBM Plex Mono, serif;
-  font-size: 12px;
-  font-weight: 700px;
-  color: #ffa217;
-  background-color: #fff6e9;
-  border-radius: 10px;
-  border: none;
-}
-
-.work-name {
-  font-family: raleway, serif;
-  font-size: 24px;
-  font-weight: 800px;
-  color: #080808;
-}
-
-.work-name-para {
-  font-size: 14px;
-  font-weight: 400px;
-}
-
-.case-study-btn-one {
-  background-color: rgb(255, 160, 26);
-  color: #fff6e9;
-  padding: 10px 20px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border: none;
-}
-
-.edTech-container {
+.aboutMe-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 70px 160px;
+  margin: 20px 140px;
 }
 
-.edTech-container img {
-  width: 500px;
+.aboutMe-section Img {
+  margin-top: 60px;
 }
 
-.edtech-section {
-  padding-left: 40px;
-  margin-top: 40px;
+.aboutMe-para {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #080808;
+  margin: 20px 50px;
 }
 
-.edtech-btn {
-  font-family: IBM Plex Mono, serif;
-  font-size: 12px;
-  font-weight: 700px;
-  color: #000aff;
-  background-color: #d0e6ff;
-  border-radius: 10px;
-  border: none;
-}
-
-.case-study-btn-two {
-  background-color: #000aff;
+.aboutMe-btn {
+  background-color: #3f8e00;
+  margin-left: 50px;
   color: #fff6e9;
   padding: 12px 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 5px;
   border: none;
+  font-size: 14px;
+  font-weight: 700px;
 }
 
-.pharma-container {
+/* ...........Recent Work.......... */
+.recent-work-text {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700px;
+  margin-bottom: 60px;
+}
+
+.icon-angle-container {
   display: flex;
-  margin: 50px 160px;
+  justify-content: space-between;
+  margin: 0 40px;
 }
 
-.pharma-btn {
-  font-family: IBM Plex Mono, serif;
-  font-size: 12px;
-  font-weight: 700px;
-  color: #2ab090;
-  background-color: #e0fff8;
-  border-radius: 10px;
+.icon-angle-left {
+  background-color: #1b1b1b;
   border: none;
 }
 
-.pharma-section {
-  padding-right: 40px;
-  margin-top: 40px;
+.icon-angle-left:hover {
+  background: gray;
+  transform: scale(1.05);
 }
 
-.case-study-btn-three {
-  background-color: #2ab090;
+.icon-angle-right {
+  background-color: #1b1b1b;
+  border: none;
+}
+
+.icon-angle-right:hover {
+  background: grey;
+  transform: scale(1.05);
+}
+
+.sunnyside-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sunnyside-section {
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.sunnyside-para {
+  height: 150px;
+}
+
+.profitPredictor-para {
+  height: 150px;
+}
+
+.profitPredictor-section {
+  margin-left: 50px;
+  margin-right: 120px;
+}
+
+.view-code-web-btns {
+  margin: 30px 0;
+}
+
+.viewCode-btn {
+  background-color: #3f8e00;
   color: #fff6e9;
+  text-decoration: none;
   padding: 12px 20px;
-  margin-top: 20px;
+  margin: 20px 0;
   border-radius: 5px;
   border: none;
+  font-size: 14px;
+  font-weight: 700px;
 }
 
-/* ...............Testimonials............. */
+.viewCode-btn:hover {
+  background: #27ae60;
+  transform: scale(1.05);
+}
+
+.viewWeb-btn {
+  background-color: #fff6e9;
+  color: #3f8e00;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 18px;
+  margin: 20px 0 20px 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+.viewWeb-btn:hover {
+  background: #27ae60;
+  transform: scale(1.05);
+}
+
+/* ...............Reviews............. */
 .testimonials-container {
   text-align: center;
   background-color: #080808;
@@ -378,65 +392,27 @@ body {
   border-radius: 50%;
 }
 
-/* ...........Recent Work.......... */
-.recent-work-container {
-  text-align: center;
-}
-
-.recent-work-container h1 {
-  font-size: 34px;
-  font-weight: 700px;
-}
-
-.recent-work-para {
-  font-size: 14px;
-  font-weight: 400px;
-  color: #9c9c9c;
-  margin: 0 370px 50px 370px;
-}
-
-.recentworkImg-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.recentworkImg-container img {
-  margin-left: 50px;
-}
-
-.recentWorkImg1 {
-  padding-left: 100px;
-}
-
-.work-name-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.work-name-section1 {
-  margin-left: 150px;
-  margin-right: 20px;
-}
-
-.work-name-section2 {
-  margin-left: 50px;
-  margin-right: 120px;
-}
-
-.know-more-btn {
-  background-color: #3f8e00;
-  color: #fff6e9;
-  padding: 12px 20px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border: none;
-  font-size: 14px;
-  font-weight: 700px;
-}
-
 /* ..........Get In Touch............ */
 .getInTouch-container {
   background-color: #080808;
+}
+
+.getInTouch-section {
+  text-align: center;
+}
+
+.getInTouch-container h1 {
+  font-family: raleway, serif;
+  font-size: 34px;
+  font-weight: 800px;
+  color: #fff;
+}
+
+.getInTouch-para {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 0 350px;
+  color: #9c9c9c;
 }
 
 .form-container {
@@ -449,7 +425,7 @@ body {
   margin-bottom: 10px;
   color: #ffffff;
   font-size: 12px;
-  padding-right: 310px;
+  margin-right: 300px;
 }
 
 .form-input {
@@ -461,7 +437,7 @@ body {
   font-size: 12px;
 }
 
-.form-textarea {
+.form-text-area {
   width: 26%;
   padding: 14px;
   border-radius: 6px;
@@ -472,11 +448,17 @@ body {
 }
 
 .submit-btn {
-  margin-left: 452px;
   background-color: #3f8e00;
   color: #fff;
-  padding: 15px 148px;
-  margin-bottom: 60px;
+  padding: 15px 0;
+  width: 28%;
+  display: block;
+  margin: 0px auto 60px;
+}
+
+.submit-btn:hover {
+  background: #27ae60;
+  transform: scale(1.05);
 }
 
 .footer-text {
@@ -485,4 +467,380 @@ body {
   color: #9c9c9c;
   padding: 20px 0;
   font-size: 12px;
+}
+
+/* Media query fo mobile */
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: IBM Plex Mono, serif;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    margin: 0 20px;
+    border-radius: 10px;
+  }
+
+  .hamburger-icon {
+    display: block;
+    margin-right: 30px;
+    background-color: #1b1b1b;
+    border: none;
+  }
+
+  .nav-link a {
+    display: none;
+  }
+
+  .nav-link-mobile a {
+    text-decoration: none;
+    display: block;
+  }
+
+  .nav-logo-container {
+    margin-left: 150px;
+  }
+
+  .profile-container-body {
+    background-color: #080808;
+  }
+
+  .profile-container {
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    color: #fff;
+  }
+
+  .profile h1 {
+    font-family: raleway, serif;
+    font-size: 35px;
+    font-weight: 800px;
+  }
+
+  .profile-para {
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 20px 0px 20px 40px;
+  }
+
+  .profile-start-btn {
+    font-family: IBM Plex Mono, serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700px;
+    background-color: #3f8e00;
+    border: 1px;
+    padding: 21px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+
+  .profile-img img {
+    margin-left: 0;
+    border-radius: 50%;
+    height: 250px;
+  }
+
+  .work-with-text {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .work-with-logo-container {
+    display: block;
+    text-align: center;
+  }
+
+  .work-with-logo {
+    margin-left: 10px;
+    padding: 0 0;
+    height: 30px;
+  }
+
+  /* ...........ABOUT ME.......... */
+  .aboutMe-container h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+  }
+
+  .aboutMe-section {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .aboutMe-section Img {
+    margin-top: 0px;
+    height: 200px;
+  }
+
+  .aboutMe-para {
+    font-size: 12px;
+    font-weight: 400px;
+    color: #080808;
+    margin: 20px 100px;
+  }
+
+  .aboutMe-btn {
+    background-color: #3f8e00;
+
+    color: #fff6e9;
+    padding: 12px 20px;
+    margin: 10px 50px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700px;
+  }
+
+  /* ...........Recent Work.......... */
+  .recent-work-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+    margin-bottom: 60px;
+  }
+
+  .sunnyside-container {
+    display: block;
+  }
+
+  .sunnyside-section {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .sunnyside-img {
+    height: 230px;
+  }
+
+  .sunnyside-section h2 {
+    font-size: 23px;
+  }
+
+  .sunnyside-para {
+    height: 0px;
+    margin: 0 90px;
+  }
+
+  .view-code-web-btns {
+    margin: 230px 0 60px 0;
+  }
+
+  .profitPredictor-section {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .profitPredictor-img {
+    height: 220px;
+  }
+
+  .profitPredictor-section h2 {
+    font-size: 23px;
+  }
+
+  .profitPredictor-para {
+    margin: 0 100px;
+    padding-bottom: 20px;
+    height: 0px;
+  }
+
+  /* ...............Reviews............. */
+  .testimonials-container {
+    text-align: center;
+    background-color: #080808;
+  }
+
+  .testimonials-container h1 {
+    font-family: raleway, serif;
+    font-size: 24px;
+    font-weight: 800px;
+    color: #fff;
+    margin: 0 140px;
+    margin-top: 30px;
+  }
+
+  .testimonials-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0 50px;
+    color: #9c9c9c;
+    padding-top: 20px;
+  }
+
+  .client-section1 {
+    display: block;
+    padding: 20px;
+    background-color: #080808;
+    padding-top: 50px;
+  }
+
+  .client1-container {
+    background-image: url(images/Rectangle.png);
+    margin: 0 90px;
+  }
+
+  .client1-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0px;
+    padding: 20px 10px;
+    color: #9c9c9c;
+  }
+
+  .client1-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .client2-container {
+    background-image: url(images/Rectangle.png);
+    margin: 0 90px;
+    margin-top: 50px;
+  }
+
+  .client2-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0;
+    padding: 20px;
+    color: #9c9c9c;
+  }
+
+  .client2-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .client-section2 {
+    display: block;
+    padding: 20px 20px 60px 20px;
+    background-color: #080808;
+  }
+
+  .client3-container {
+    background-image: url(images/Rectangle.png);
+    margin: 0 90px;
+    margin-bottom: 50px;
+  }
+
+  .client3-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0;
+    padding: 20px;
+    color: #9c9c9c;
+  }
+
+  .client3-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .client4-container {
+    background-image: url(images/Rectangle.png);
+    margin: 0 90px;
+    margin-bottom: 40px;
+  }
+
+  .client4-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #9c9c9c;
+  }
+
+  .client4-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  /* ..........Get In Touch............ */
+  .getInTouch-section {
+    text-align: center;
+  }
+
+  .getInTouch-container h1 {
+    font-family: raleway, serif;
+    font-size: 26px;
+    font-weight: 800px;
+    color: #fff;
+  }
+
+  .getInTouch-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0 90px;
+    color: #9c9c9c;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 140px;
+  }
+
+  .form-input {
+    width: 34%;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 12px;
+  }
+
+  .form-text-area {
+    width: 34%;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    height: 100px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .submit-btn {
+    background-color: #3f8e00;
+    color: #fff;
+    padding: 15px 0;
+    width: 40%;
+    display: block;
+    margin: 0px auto 60px;
+  }
+
+  .footer-text {
+    text-align: center;
+    background-color: #1b1b1b;
+    color: #9c9c9c;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
 }

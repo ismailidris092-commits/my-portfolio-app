@@ -4,19 +4,21 @@ import dropbox from "../images/dropbox.png";
 import paychex from "../images/paychex.png";
 import elastic from "../images/elastic.png";
 import stripe from "../images/stripe.png";
-import profileImg from "../images/profileImg.png";
+import profileImg from "../images/profileImg.jpg";
 import vector from "../images/vector.png";
+import NavBar from "./NavBar";
 
 function Profile() {
   return (
     <div className="profile-container-body">
+      <NavBar />
       <section className="profile-container">
         <div className="profile">
           <h1>Ismail Idris</h1>
           <p className="profile-para">
-            A passionate web developer who loves creating
-            beautiful, responsive websites and apps. I enjoy solving problems,
-            learning new technologies, and bringing ideas to life on the web.
+            A passionate web developer who loves creating beautiful, responsive
+            websites and apps. I enjoy solving problems, learning new
+            technologies, and bringing ideas to life on the web.
           </p>
           <button className="profile-start-btn">
             Let’s get started
