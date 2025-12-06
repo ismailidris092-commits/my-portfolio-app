@@ -627,7 +627,7 @@ body {
     background-color: #1b1b1b;
     border: none;
     position: absolute;
-    left: 5%;
+    left: 4%;
     top: 9%;
   }
 
@@ -635,7 +635,7 @@ body {
     background-color: #1b1b1b;
     border: none;
     position: absolute;
-    right: 5%;
+    right: 4%;
     top: 9%;
   }
 
@@ -663,7 +663,7 @@ body {
   }
 
   .view-code-web-btns {
-    margin: 250px 0 60px 0;
+    margin: 320px 0 60px 0;
   }
 
   .profitPredictor-section {
