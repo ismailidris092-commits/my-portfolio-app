@@ -29,10 +29,10 @@ export default function RecentWork() {
 
       <h1 className="recent-work-text">Recent Works</h1>
 
-      <div className="pstn-relative-container">
+      <section className="pstn-relative-container">
         <Button nextSlide={nextSlide} prevSlide={prevSlide} />
 
-        <section className="recentWork-container">
+        <div className="recentWork-container">
           <div className="sunnyside-section">
             <img
               className="sunnyside-img"
@@ -96,8 +96,8 @@ export default function RecentWork() {
               </Link>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </>
   );
 }
