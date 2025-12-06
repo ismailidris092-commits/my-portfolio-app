@@ -5,7 +5,7 @@ import dice from "../images/dice.png";
 import guessNum from "../images/guessNum.png";
 import meet from "../images/meet.png";
 
-const recentWorkSlides = [
+const recentWorkSlide = [
   {
     image1: sunnyside,
     title1: "Sunnyside Project",
@@ -53,4 +53,4 @@ const recentWorkSlides = [
   },
 ];
 
-export default recentWorkSlides;
+export default recentWorkSlide;

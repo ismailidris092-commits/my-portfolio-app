@@ -1,12 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import sunnyside from "../images/sunnyside.jpg";
-import profitPredictor from "../images/profitPredictor.png";
 import vector from "../images/vector.png";
 import NavBar from "./NavBar";
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import recentWorkSlides from "./RecentWorkSlides";
+import recentWorkSlides from "./recentWorkSlide";
 
 export default function RecentWork() {
   const [currentIndex, setCurrentIndex] = useState(0);
