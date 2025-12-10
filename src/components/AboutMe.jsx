@@ -13,7 +13,7 @@ function AboutMe() {
       <div className="aboutMe-section">
         <img src={pharmaImg} alt="PharmaImg" />
 
-        <div>
+        <div className="para-container">
           <p className="aboutMe-para">
             I am a dedicated and detail-oriented front-end web developer with
             years of professional experience designing and building responsive,
@@ -35,7 +35,6 @@ function AboutMe() {
             deliver polished user interfaces, using version control (Git/GitHub)
             and automated testing to ensure reliability in production.
           </p>
-          <button className="aboutMe-btn">Know More</button>
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ function Reviews() {
     <>
       <div className="testimonials-container">
         <NavBar />
-        <h1>User Experience Reviews</h1>
+        <h1>Reviews</h1>
         <p className="testimonials-para">
           We value feedback from our users and continuously improve our services
           based on their experiences.
@@ -22,25 +22,22 @@ function Reviews() {
           {/* <div className="quote-icon">❝</div> */}
           <p className="client1-para">
             A highly skilled and reliable web developer who delivers clean,
-            responsive, and modern designs. Communication was excellent, and the
-            final product exceeded expectations.
+            responsive, and modern designs.
           </p>
           <div className="client1-Img-section">
             <img src={client1} alt="Client 1" />
-            <h2>Lanre Adeolu (Senior dev)</h2>
+            <h2>Lanre Adeolu</h2>
           </div>
         </div>
 
         <div className="client2-container">
           <p className="client2-para">
-            Working with this developer was a great experience from start to
-            finish. He understood the project requirements clearly, delivered
-            ahead of schedule, and created a fast, responsive, and visually
-            appealing website.
+            He understood the project requirements clearly and created a fast,
+            responsive, and visually appealing website.
           </p>
           <div className="client2-Img-section">
             <img src={client2} alt="Client 2" />
-            <h2>Fawzino (Coming up dev)</h2>
+            <h2>Akinbo Akinwunmi</h2>
           </div>
         </div>
       </section>
@@ -49,12 +46,11 @@ function Reviews() {
         <div className="client3-container">
           <p className="client3-para">
             An outstanding web developer with a deep understanding of modern web
-            technologies. He brought creative ideas to the table and transformed
-            our vision into a beautiful, functional, and user-friendly website.
+            technologies.
           </p>
           <div className="client3-Img-section">
             <img src={client3} alt="Client 3" />
-            <h2>Oreoluwa(Up dev)</h2>
+            <h2>Bakare Oreoluwa</h2>
           </div>
         </div>
 

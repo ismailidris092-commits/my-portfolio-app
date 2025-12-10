@@ -45,7 +45,7 @@ export default function ContactForm() {
 
       {/* Mobile */}
       <label htmlFor="mobile" className="form-label">
-        Mobile
+        Mobile:
       </label>
       <input
         type="tel"
@@ -60,7 +60,7 @@ export default function ContactForm() {
 
       {/* Message */}
       <label htmlFor="message" className="form-label">
-        Message
+        Message:
       </label>
       <textarea
         placeholder="Enter your message"
