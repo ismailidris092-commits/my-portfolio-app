@@ -102,8 +102,8 @@ body {
 }
 
 .work-with-logo {
-  margin-left: 30px;
-  padding: 10px 0;
+  margin-left: 70px;
+  padding: 20px 0;
 }
 
 /* ...........ABOUT ME.......... */
@@ -872,7 +872,7 @@ body {
   }
 }
 
-/* Media query for Macro Laptop */
+/* .......Media query for Macro Screen laptop........ */
 @media (min-width: 1400px) {
   body {
     margin: 0;
@@ -913,12 +913,12 @@ body {
   .work-with-logo-container {
     display: block;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 200px;
+    padding-top: 60px;
+    padding-bottom: 130px;
   }
 
   .work-with-logo {
-    margin-left: 30px;
+    margin-left: 70px;
     padding: 10px 0;
   }
 
@@ -958,7 +958,7 @@ body {
     margin-right: 120px;
   }
 
-  /* ...............Reviews............. */
+  /* ...Reviews...*/
   .testimonials-para {
     font-size: 14px;
     font-weight: 400px;
@@ -1105,12 +1105,12 @@ body {
     .work-with-logo-container {
       display: block;
       text-align: center;
-      padding-top: 30px;
+      padding-top: 50px;
       padding-bottom: 2000px;
     }
 
     .work-with-logo {
-      margin-left: 30px;
+      margin-left: 70px;
       padding: 10px 0;
     }
 

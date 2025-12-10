@@ -1,9 +1,10 @@
 import React from "react";
-import clickup from "../images/clickup.png";
-import dropbox from "../images/dropbox.png";
-import paychex from "../images/paychex.png";
-import elastic from "../images/elastic.png";
-import stripe from "../images/stripe.png";
+import html from "../images/html.png";
+import css from "../images/css.png";
+import javascript from "../images/javascript.png";
+import tailwind from "../images/tailwind.png";
+import bootstrap from "../images/bootstrap.png";
+import nextJs from "../images/nextJs.png";
 import profileImg from "../images/profileImg.jpg";
 import vector from "../images/vector.png";
 import NavBar from "./NavBar";
@@ -34,11 +35,12 @@ function Profile() {
       <div className="work-with-logo-container">
         <p className="work-with-text">Worked with</p>
 
-        <img className="work-with-logo" src={clickup} alt="ClickUp" />
-        <img className="work-with-logo" src={dropbox} alt="Dropbox" />
-        <img className="work-with-logo" src={paychex} alt="Paychex" />
-        <img className="work-with-logo" src={elastic} alt="Elastic" />
-        <img className="work-with-logo" src={stripe} alt="Stripe" />
+        <img className="work-with-logo" src={html} alt="Html" />
+        <img className="work-with-logo" src={css} alt="Css" />
+        <img className="work-with-logo" src={javascript} alt="Javascript" />
+        <img className="work-with-logo" src={tailwind} alt="Tailwind" />
+        <img className="work-with-logo" src={bootstrap} alt="Bootstrap" />
+        <img className="work-with-logo" src={nextJs} alt="Next-Js" />
       </div>
     </div>
   );
