@@ -559,19 +559,13 @@ body {
     color: #fff;
     font-size: 12px;
     margin-right: 10px;
-    padding-right: 340px;
+    padding-right: 250px;
     margin-top: 40px;
   }
 
   .work-with-logo-container {
     display: block;
     text-align: center;
-  }
-
-  .work-with-logo {
-    margin-left: 10px;
-    padding: 0 0;
-    height: 30px;
   }
 
   /* ...........ABOUT ME.......... */
@@ -820,7 +814,7 @@ body {
     margin-bottom: 10px;
     color: #ffffff;
     font-size: 12px;
-    margin-right: 140px;
+    margin-right: 110px;
   }
 
   .form-input {
