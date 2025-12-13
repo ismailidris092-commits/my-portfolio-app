@@ -8,7 +8,7 @@ import nextJs from "../images/nextJs.png";
 import profileImg from "../images/profileImg.jpg";
 import vector from "../images/vector.png";
 import NavBar from "./NavBar";
-import "./carousel.css";
+import "./Carousel.css";
 
 function Profile() {
   return (
