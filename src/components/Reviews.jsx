@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 
 function Reviews() {
   return (
-    <>
+    <div className="review-container">
       <div className="testimonials-container">
         <NavBar />
         <h1>Reviews</h1>
@@ -65,7 +65,7 @@ function Reviews() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

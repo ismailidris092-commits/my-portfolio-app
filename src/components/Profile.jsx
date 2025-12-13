@@ -35,12 +35,24 @@ function Profile() {
       <div className="work-with-logo-container">
         <p className="work-with-text">Worked with</p>
 
-        <img className="work-with-logo" src={html} alt="Html" />
-        <img className="work-with-logo" src={css} alt="Css" />
-        <img className="work-with-logo" src={javascript} alt="Javascript" />
-        <img className="work-with-logo" src={tailwind} alt="Tailwind" />
-        <img className="work-with-logo" src={bootstrap} alt="Bootstrap" />
-        <img className="work-with-logo" src={nextJs} alt="Next-Js" />
+        <div className="carousel-container">
+          <div className="carousel-track">
+            <img src={html} alt="html" />
+            <img src={css} alt="css" />
+            <img src={javascript} alt="javascript" />
+            <img src={tailwind} alt="tailwind" />
+            <img src={bootstrap} alt="bootstrap" />
+            <img src={nextJs} alt="nextjs" />
+
+            {/* Duplicate images for seamless loop */}
+            <img src={html} alt="html" />
+            <img src={css} alt="css" />
+            <img src={javascript} alt="javascript" />
+            <img src={tailwind} alt="tailwind" />
+            <img src={bootstrap} alt="bootstrap" />
+            <img src={nextJs} alt="nextjs" />
+          </div>
+        </div>
       </div>
     </div>
   );

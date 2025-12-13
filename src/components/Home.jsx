@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "./Profile";
+import "./carousel.css";
 
 function Home() {
   return (

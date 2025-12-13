@@ -107,11 +107,6 @@ body {
 }
 
 /* ...........ABOUT ME.......... */
-
-/* .aboutMe-container {
-  text-align: center;
-} */
-
 .aboutMe-container h1 {
   text-align: center;
   font-size: 34px;
@@ -479,7 +474,7 @@ body {
   font-size: 12px;
 }
 
-/* Media query fo mobile */
+/* ..........Media query fo mobile..........*/
 @media (max-width: 576px) {
   body {
     margin: 0;
@@ -514,7 +509,7 @@ body {
   }
 
   .nav-logo-container {
-    margin-left: 150px;
+    margin-left: 120px;
   }
 
   .profile-container-body {
@@ -688,8 +683,7 @@ body {
   }
 
   /* ...............Reviews............. */
-  .testimonials-container {
-    text-align: center;
+  .review-container {
     background-color: #080808;
   }
 
@@ -705,28 +699,25 @@ body {
   .testimonials-para {
     font-size: 14px;
     font-weight: 400px;
-    margin: 0 50px;
+    margin: 20px 50px;
     color: #9c9c9c;
-    padding-top: 20px;
   }
 
   .client-section1 {
     display: block;
-    padding: 20px;
-    background-color: #080808;
-    padding-top: 50px;
+    padding: 20px 0;
   }
 
   .client1-container {
     background-image: url(images/Rectangle12.png);
-    margin: 0 90px;
+    margin: 0 50px;
   }
 
   .client1-para {
     font-size: 14px;
     font-weight: 400px;
     margin: 0px;
-    padding: 20px 10px;
+    padding: 20px;
     color: #9c9c9c;
   }
 
@@ -739,7 +730,7 @@ body {
 
   .client2-container {
     background-image: url(images/Rectangle14.png);
-    margin: 0 90px;
+    margin: 0 50px;
     margin-top: 50px;
   }
 
@@ -761,12 +752,11 @@ body {
   .client-section2 {
     display: block;
     padding: 20px 20px 60px 20px;
-    background-color: #080808;
   }
 
   .client3-container {
     background-image: url(images/Rectangle12.png);
-    margin: 0 90px;
+    margin: 0 30px;
     margin-bottom: 50px;
   }
 
@@ -787,8 +777,383 @@ body {
 
   .client4-container {
     background-image: url(images/Rectangle14.png);
-    margin: 0 90px;
+    margin: 0 30px;
     margin-bottom: 40px;
+  }
+
+  .client4-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0px;
+    padding: 20px;
+    color: #9c9c9c;
+  }
+
+  .client4-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  /* ..........Get In Touch............ */
+  .getInTouch-section {
+    text-align: center;
+  }
+
+  .getInTouch-container h1 {
+    font-family: raleway, serif;
+    font-size: 26px;
+    font-weight: 800px;
+    color: #fff;
+  }
+
+  .getInTouch-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0 90px;
+    color: #9c9c9c;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 140px;
+  }
+
+  .form-input {
+    width: 34%;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 12px;
+  }
+
+  .form-text-area {
+    width: 34%;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    height: 100px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .submit-btn {
+    background-color: #3f8e00;
+    color: #fff;
+    padding: 15px 0;
+    width: 40%;
+    display: block;
+    margin: 0px auto 60px;
+  }
+
+  .footer-text {
+    text-align: center;
+    background-color: #1b1b1b;
+    color: #9c9c9c;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+}
+
+/* ..........Media query fo Ipad..........*/
+@media (min-width: 577px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: IBM Plex Mono, serif;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    margin: 0 20px;
+    border-radius: 10px;
+  }
+
+  .hamburger-icon {
+    display: block;
+    margin-right: 30px;
+    background-color: #1b1b1b;
+    border: none;
+  }
+
+  .nav-link a {
+    display: none;
+  }
+
+  .nav-link-mobile a {
+    text-decoration: none;
+    display: block;
+  }
+
+  .nav-logo-container {
+    margin-left: 300px;
+  }
+
+  .profile-container-body {
+    background-color: #080808;
+  }
+
+  .profile-container {
+    text-align: center;
+    padding: 20px 40px;
+    display: block;
+    color: #fff;
+  }
+
+  .profile h1 {
+    font-family: raleway, serif;
+    font-size: 35px;
+    font-weight: 800px;
+  }
+
+  .profile-para {
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 20px 0px 20px 40px;
+  }
+
+  .profile-start-btn {
+    font-family: IBM Plex Mono, serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700px;
+    background-color: #3f8e00;
+    border: 1px;
+    padding: 21px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+
+  .profile-img img {
+    margin-left: 0;
+    border-radius: 50%;
+    height: 250px;
+  }
+
+  .work-with-text {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+    padding-right: 340px;
+    margin-top: 40px;
+  }
+
+  .work-with-logo-container {
+    display: block;
+    text-align: center;
+  }
+
+  .work-with-logo {
+    margin-left: 10px;
+    padding: 0 0;
+    height: 30px;
+  }
+
+  /* ...........ABOUT ME.......... */
+  .aboutMe-container h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+  }
+
+  .aboutMe-section {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .aboutMe-section Img {
+    margin-top: 0px;
+    height: 200px;
+  }
+
+  .aboutMe-para {
+    font-size: 12px;
+    font-weight: 400px;
+    color: #080808;
+    margin: 20px 100px;
+  }
+
+  .aboutMe-btn {
+    background-color: #3f8e00;
+
+    color: #fff6e9;
+    padding: 12px 20px;
+    margin: 10px 50px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700px;
+  }
+
+  /* ...........Recent Work.......... */
+  .recent-work-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+  }
+
+  .icon-angle-left {
+    background-color: #1b1b1b;
+    border: none;
+    position: absolute;
+    left: 4%;
+    top: 9%;
+  }
+
+  .icon-angle-right {
+    background-color: #1b1b1b;
+    border: none;
+    position: absolute;
+    right: 4%;
+    top: 9%;
+  }
+
+  .recentWork-container {
+    display: block;
+  }
+
+  .sunnyside-section {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .sunnyside-img {
+    height: 230px;
+  }
+
+  .sunnyside-section h2 {
+    font-size: 23px;
+  }
+
+  .sunnyside-para {
+    height: 0px;
+    margin: 0 90px;
+  }
+
+  .view-code-web-btns {
+    margin: 320px 0 60px 0;
+  }
+
+  .profitPredictor-section {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .profitPredictor-img {
+    height: 220px;
+  }
+
+  .profitPredictor-section h2 {
+    font-size: 23px;
+  }
+
+  .profitPredictor-para {
+    margin: 0 100px;
+    padding-bottom: 20px;
+    height: 0px;
+  }
+
+  /* ...............Reviews............. */
+  .review-container {
+    background-color: #080808;
+  }
+
+  .testimonials-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0 100px;
+    color: #9c9c9c;
+    padding-top: 20px;
+  }
+
+  .client-section1 {
+    display: block;
+    padding: 40px 180px;
+  }
+
+  .client1-container {
+    background-image: url(images/Rectangle12.png);
+  }
+
+  .client1-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0px;
+    padding: 30px;
+    color: #9c9c9c;
+  }
+
+  .client1-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .client2-container {
+    background-image: url(images/Rectangle14.png);
+    margin-top: 50px;
+  }
+
+  .client2-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0;
+    padding: 20px;
+    color: #9c9c9c;
+  }
+
+  .client2-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .client-section2 {
+    display: block;
+    padding: 20px 180px;
+  }
+
+  .client3-container {
+    background-image: url(images/Rectangle12.png);
+    margin-bottom: 50px;
+  }
+
+  .client3-para {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0;
+    padding: 20px;
+    color: #9c9c9c;
+  }
+
+  .client3-Img-section h2 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .client4-container {
+    background-image: url(images/Rectangle14.png);
+    margin-bottom: 50px;
   }
 
   .client4-para {
